@@ -14,4 +14,19 @@ result = n1 + n2
 print (result)
 '''Para numeros com ponto flutuante ou numeros reais, que precisam de um ponto para separar das casas decimais.'''
 
+n1 = bool(input("Digite um numero: "))
+n2 = bool(input("Digite outro numero: "))
+result = n1 + n2 == True
+print (result)
 
+n1 = str(input("Digite um numero: "))
+n2 = str(input("Digite outro numero: "))
+result = n1 + n2
+print (result)
+'''STR vem de string, na operação aparenta que eu vou somar, mas como
+classifiquei minhas variáveis como str acontecera um concatenação.
+Ex: "2" + "2" = 22'''
+
+
+'''OBS: Lembrando que todas as variaveis devem ser especificadas,
+se não, havera uma cocatenação.'''
