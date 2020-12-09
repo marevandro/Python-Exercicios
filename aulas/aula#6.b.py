@@ -9,8 +9,4 @@ n1 = bool(input("Digite um numero: "))
 print(n1)
 '''O valor boleano nessa interpretação apenas acusa se e digitado algo no input.'''
 
-#A outras formas de trabalhar o tipo booleano
 
-n3 = input('Digite algo: ')
-print(n3.isnumeric())
-#informa se o que foi digitado e um número.
