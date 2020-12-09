@@ -1,7 +1,7 @@
 n1 = int(input("Digite um numero: "))
 n2 = int(input("Digite outro numero: "))
 result = n1 + n2
-print (result)
+print (type(result))
 '''Para tipos inteiros usamos int, lembrando que a classificação deve ser feita antes do input.
 Numeros positivos, negativos ou nulos, são inteiros se não tiverem .'''
 
@@ -30,3 +30,5 @@ Ex: "2" + "2" = 22'''
 
 '''OBS: Lembrando que todas as variaveis devem ser especificadas,
 se não, havera uma cocatenação.'''
+
+# o tipo primitivo e definido por 'type' como no primeiro cáuculo
