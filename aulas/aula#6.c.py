@@ -1,4 +1,4 @@
-#A outras formas de trabalhar o tipo booleano
+
 
 n3 = input('Digite algo: ')
 print(n3.isnumeric())

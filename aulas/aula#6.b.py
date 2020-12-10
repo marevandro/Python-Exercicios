@@ -7,6 +7,6 @@ print('A soma de pontos flutuantes entre', n1, 'e', n2,'é igual a,', result)
 
 n1 = bool(input("Digite um numero: "))
 print(n1)
-'''O valor boleano nessa interpretação apenas acusa se e digitado algo no input.'''
+'''O valor boleano nessa interpretação apenas acusa se a variavel leu algum valor.'''
 
 
