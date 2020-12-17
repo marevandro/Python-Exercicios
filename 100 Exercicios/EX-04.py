@@ -4,19 +4,33 @@ sobre ele.'''
 
 digite = input('Digite algo: ')
 print(type(digite))
-#acusa o tipo primitivo.
-print(digite.isalnum())
-#acusa se todos os caracteres do texto são alfanuméricos, (espaço)!#%&? Etc mostram o resultado falso.
-print(digite.isnumeric())
-#verifique se todos os caracteres do texto são numéricos.
-print(digite.isalpha())
-#Verifique se todos os caracteres do texto são letras.
-print(digite.isdecimal())
-#
-print(digite.isdigit())
-print(digite.isidentifier())
+print("Acusa o tipo primitivo.")
+print("----------------------------------------")
+
+print("isalum = ", digite.isalnum())
+print("Acusa se contem numeros, (espaço)!#%&? Etc mostram o resultado falso.")
+print("----------------------------------------")
+
+
+print("isnumeric = ", digite.isnumeric())
+print("verifique se todos os caracteres do texto são numéricos.")
+print("----------------------------------------")
+
+
+print("isalpha =", digite.isalpha())
+print("Verifique se todos os caracteres do texto são letras.")
+print("----------------------------------------")
+
+print("isdecimal = ", digite.isdecimal())
+print("Verifica se todos os caracteres são numericos")
+print("----------------------------------------")
+
+print("isdigit = ",digite.isdigit())
+
+print("isidentifier =", digite.isidentifier())
 print(digite.islower())
 print(digite.isprintable())
 print(digite.isspace())
 print(digite.istitle())
 print(digite.isupper())
+print(digite.captalize())
