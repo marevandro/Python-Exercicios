@@ -26,6 +26,8 @@ print("Verifica se todos os caracteres são numericos")
 print("----------------------------------------")
 
 print("isdigit = ",digite.isdigit())
+print("Verdadeiro ou falso para numeros que sejam positivos. Apenas numero inteiros.")
+print("----------------------------------------")
 
 print("isidentifier =", digite.isidentifier())
 print(digite.islower())
