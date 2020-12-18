@@ -29,9 +29,10 @@ print("isdigit = ",digite.isdigit())
 print("Verdadeiro ou falso para numeros que sejam positivos. Apenas numero inteiros.")
 print("----------------------------------------")
 
-print("isidentifier =", digite.isidentifier())
-print(digite.islower())
-print(digite.isprintable())
+print("islower = ", digite.islower())
+print("Verifica se a String tem o letra minuscula")
+print("----------------------------------------")
+
 print(digite.isspace())
 print(digite.istitle())
 print(digite.isupper())
