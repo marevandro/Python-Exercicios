@@ -37,7 +37,7 @@ print("isspace = ", digite.isspace())
 print("Verifica se contem espaços")
 print("----------------------------------------")
 '''Vamos supor que peça para um campo ser preenchido e o usuário so da espaço e passa o campo, se
-o valor for "False" um erro acontece. 
+o valor for "False" um erro acontece.'''
 
 
 print("issupper = ", digite.isupper())
