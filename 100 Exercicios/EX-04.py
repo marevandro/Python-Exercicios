@@ -33,7 +33,17 @@ print("islower = ", digite.islower())
 print("Verifica se a String tem o letra minuscula")
 print("----------------------------------------")
 
-print(digite.isspace())
-print(digite.istitle())
-print(digite.isupper())
-print(digite.captalize())
+print("isspace = ", digite.isspace())
+print("Verifica se contem espaços")
+print("----------------------------------------")
+'''Vamos supor que peça para um campo ser preenchido e o usuário so da espaço e passa o campo, se
+o valor for "False" um erro acontece. 
+
+
+print("issupper = ", digite.isupper())
+print("Verifica se tem str maiuscula")
+print("----------------------------------------")
+
+
+
+print("========================FIM==========================")
