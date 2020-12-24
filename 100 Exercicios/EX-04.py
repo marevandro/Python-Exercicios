@@ -1,6 +1,4 @@
-'''Faça um programa que leia algo pelo teclado e mostre na
-tela o seu tipo primitivo e todas as informações possíveis
-sobre ele.'''
+'''Explicação técnica sobre alguns metodos.'''
 
 digite = input('Digite algo: ')
 print(type(digite))
@@ -19,10 +17,6 @@ print("----------------------------------------")
 
 print("isalpha =", digite.isalpha())
 print("Verifique se todos os caracteres do texto são letras.")
-print("----------------------------------------")
-
-print("isdecimal = ", digite.isdecimal())
-print("Verifica se todos os caracteres são numericos")
 print("----------------------------------------")
 
 print("isdigit = ",digite.isdigit())
