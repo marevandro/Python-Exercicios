@@ -6,4 +6,4 @@ tem na carteira e mostre quantos Dólares ela pode comprar.
 
 real = float(input("Quantos reais você tem na carteira: "))
 dolar = real / 5.22
-print("Com R${} voce consegue compra ${}".format(real, dolar))
+print("Com R${:.2f} voce consegue compra ${:.2f}".format(real, dolar))
