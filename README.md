@@ -81,3 +81,12 @@ Os textos ocupam um espaço de micro-memória no PC sendo contados do 0, uma fra
 *Quando usamos o comando frase.split() associado a dividido por exemplo, em uma frase já associada, o comando print(dividido[0]) mostrará a primeira família de micro-memórias, 1 a segunda, 2 a terceira e assim em diante
 
 
+Contribuição por minha autoria.
+
+Aula 10 – IF (se) e Else (senão)
+
+Ao criar uma condição, lembre-se de concatenar, deve estar dentro do if e else.
+
+
+
+
