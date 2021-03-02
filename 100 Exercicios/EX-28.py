@@ -13,9 +13,10 @@ from time import sleep
 num = randint(0,5)
 print(f'-'*5,'JOGO DA ADVINHAÇÃO','-'*5)
 print('Acerte o número que a maquina esta pensando.')
-sleep(4)
 
-user = int(input('O escolha um número de 0 á 5: '))
+user = int(input('Escolha um número de 0 á 5: '))
+print('SERA QUE VOCÊ ACERTOU ???')
+sleep(3)
 if num == user:
     print(f'Voce acertou! A maquina tambem escolheu {num}.', emoji.emojize(':dizzy_face:'))
     print()
@@ -39,6 +40,6 @@ sleep(3)
 if jogador == computador:
     print('PARABÉNS! Você conseguiu me vencer!')
 else:
-    print('GANHEI! Eu pensei no número e n')
+    print(f'GANHEI! Eu pensei no número {computador}')
 
 
