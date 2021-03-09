@@ -88,5 +88,9 @@ Aula 10 – IF (se) e Else (senão)
 Ao criar uma condição, lembre-se de concatenar, deve estar dentro do if e else.
 
 
+Aula 12 -  Estruturas condicionais aninhadas.
+Toda condição tem que começar com if, podendo acabar com elif(senão se) ou else.
+
+
 
 
