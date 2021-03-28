@@ -15,8 +15,13 @@ print('''*
 *''')
 print('-'*10,'FORMA DE PAGAMENTO','-'*10)
 pagamento = int(input(''' - Opções de pagamento: 
-Digite (1) e pague à vista dinheiro/cheque: ganhe 10% de desconto.
-Digite (2) e pague vista no cartão: ganhe 5% de desconto.
-Digite (3) e pague em até 2x no cartão: preço formalà vista no cartão: ganhe 5% de desconto
-Digite (4) para pagamentos em 3x ou mais no cartão: tenha 20% de juros
+\033[33mDigite (1)\033[m e pague à vista dinheiro/cheque: \033[34mganhe 10% de mdesconto.\033[m
+\033[33mDigite (2)\033[m e pague vista no cartão: \033[34mganhe 5% de desconto.\033[m
+\033[33mDigite (3)\033[m e pague em até 2x no cartão: preço formalà vista no cartão: \033[34mganhe 5% de desconto\033[m
+\033[33mDigite (4)\033[m para pagamentos em 3x ou mais no cartão: \033[31mtenha 20% de juros\033[m
 Sua forma de pagamento: '''))
+print('-'*15)
+if pagamento == 1:
+    desconto = (produto*10/100)
+    produto = produto - desconto
+    print('v', produto)
