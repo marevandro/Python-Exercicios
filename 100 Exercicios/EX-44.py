@@ -8,8 +8,9 @@ um produto, considerando o seu preço normal e condição de pagamento:
 – em até 2x no cartão: preço normal
 
 – 3x ou mais no cartão: 20% de juros'''
-
-produto = float(input('Preço do produto: '))
+#minha resolução
+print('-*-'*7,'MERCADINHO','-*-'*7)
+produto = float(input('PREÇO DAS SUAS COMPRAS: R$'))
 print('''*
 *
 *''')
@@ -27,8 +28,7 @@ if pagamento == 1:
     print(f'''Você escolheu o pagamento à vista. 
 O valor de R${produto:.2f}, fica R${desconto:.2f}''')
 elif pagamento ==2:
-    desconto = (produto*5/100)
-    desconto = produto - desconto
+    desconto = produto - (produto*5/100)
     print(f'''Você escolheu o pagamento à vista no cartão de credito.
 O valor de R${produto:.2f}, fica R${desconto:.2f}''')
 elif pagamento ==3:
@@ -37,6 +37,7 @@ elif pagamento ==4:
     print('Agora você pode parcelar em até 6x com \033[31m20% de juros.\033[m')
     parcelamento = int(input('Quantidade de parcelas: '))
     juros = (produto*20/100) + produto
+#poderia ter criado outra variavel para guardar o numero de parcelas e depois dividir o preço
     if parcelamento == 3:
          parcelamento = juros / 3
          print(f'Com o juros, preço aumenta para R${juros:.2f} dividido em 3 parcelas de R${parcelamento:.2f}')
@@ -54,3 +55,32 @@ elif pagamento ==4:
 Não podemos comportar esse valor de parcelas. Obrigado.''')
 else:
     print('Você não escolheu a forma de pagamento. ')
+#solução do curso
+
+print('{:=^40}.'.format('LOJAS GUANABARA'))
+preço = float(input('Preço das compras: R$'))
+print('''FORMAS DE PAGAMENTO
+[ 1 ] à vista dinherio/cheque
+[ 2 ] à vista cartão
+[ 3 ] 2x no cartão
+[ 4 ] 3x ou mais no cartão''')
+opção = int(input('Qual á a opção?'))
+if opção ==1:
+    total = preço - (preço*10/100)
+elif opção ==2:
+    total = preço - (preço*5/100)
+elif opção ==3:
+    total = preço
+    parcela = total / 2
+    print('Sua compra será parcelada em {}x de R${:.2f} SEM JUROS'.format(parcela))
+elif opção ==4:
+    total = preço + (preço * 20/100)
+    totparc = int(input('Quantas parcelas?'))
+    parcela = total / totparc
+    print('Sua compra será parcelada em {}x de R${:.2f}'.format(totparc, parcela))
+else:
+    total = 0
+    print('OPÇÃO INVALIDA de pagamento. Tente novamente!')
+print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
+
+
