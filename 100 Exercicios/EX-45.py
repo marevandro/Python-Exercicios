@@ -82,3 +82,6 @@ elif computador ==2:
         print('EMPATE')
     else:
         print('JOGADA INVÁLIDA!')
+
+
+print('FIM!')
