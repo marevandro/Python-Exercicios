@@ -84,4 +84,5 @@ elif computador ==2:
         print('JOGADA INVÁLIDA!')
 
 
-print('FIM!')
+print('FIM!     ')
+print('-'*20)
