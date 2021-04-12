@@ -9,7 +9,9 @@ aleatorio = randint(1,3)
 
 
 print('---PEDRA, PAREL e TESOURA---')
-print('''Escolha:
+print('Vamos jogar')
+sleep(2)
+print('''Escolha uma opção de 1 á 3:
 \033[1;33m(1)\033[m para PEDRA
 \033[1;34m(2)\033[m para PAPEL
 \033[1;35m(3)\033[m para TESOURA''')
@@ -44,13 +46,13 @@ elif aleatorio == 3 and opcao ==1:
 
 #resolução do curso
 
-itens = ('Pedra','Papel','Tesoura')
+'''itens = ('Pedra','Papel','Tesoura')
 computador = randint(0,2)
-print('''Suas opções:
-[ 0 ] PEDRA
-[ 1 ] PAPEL
-[ 3 ]TESOURA''')
-jogador = int (input('Qual é a sua jogada? '))
+#print(Suas opções:
+#[ 0 ] PEDRA
+#[ 1 ] PAPEL
+#[ 3 ]TESOURA)
+#jogador = int (input('Qual é a sua jogada? '))
 print('-='*11)
 print('Computador jogou {}'.format(itens[computador]))
 print('Jogador jogou {}'.format(itens[jogador]))
@@ -85,4 +87,4 @@ elif computador ==2:
 
 
 print('FIM!     ')
-print('-'*20)
+print('-'*20)'''
