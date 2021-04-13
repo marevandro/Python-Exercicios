@@ -38,4 +38,7 @@ else:
         print(f'{n} - {sub} = {resultado}')
 print('-'*10,'Fim','-'*10)
 
+#resolução do curso
+
+
 
