@@ -14,3 +14,7 @@ print("{} x 7 = {}".format(num, num*7))
 print("{} x 8 = {}".format(num, num*8))
 print("{} x 9 = {}".format(num, num*9))
 print("-"*20)
+
+for tabuada in range(1,11):
+    resultado = n*tabuada
+    print(f'{n} * {tabuada} = {resultado}')
