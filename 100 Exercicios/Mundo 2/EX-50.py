@@ -5,9 +5,17 @@ Se o valor digitado for ímpar, desconsidere-o.'''
 numpar = 0
 
 for par in range(1,7):
-    num = int(input('Digite um número: '))
-    if num % 2==0:
-        numpar = num + numpar
-        listapar= numpar
-    else:
-   '''A construção da repetição esta ok, ele ja soma os pares.'''
+    number = int(input(f'Digite {par}° valor: '))
+    if number % 2==0:
+        numpar += number
+print (f'A soma de todos os valores pares é {numpar}')
+#resolução do curso
+
+soma = 0
+cont = 0
+for c in range(1,7):
+    num = int(input('Diigte o valor {}: '.format(c)))
+    if num % 2 == 0:
+        soma += num
+        cont +=  1
+print('Você informou {} números PARES e a soma foi {}.'.format(cont, soma))
