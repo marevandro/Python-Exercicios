@@ -9,4 +9,4 @@ print("A raiz quadrada de {} é {:.2f}".format(num, (num**(1/2))))
 print("Usando a função 'pow'. {:.2f}".format(pow(num,(1/2))))
 
 '''#lembrando que se não for necessario usar esses calculos em outras situações,
-não preciso guardar esses valores em uma variável.'''
+não preciso guardar esses valores em uma variável.'''  #salve
