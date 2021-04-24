@@ -17,7 +17,7 @@ print(f'''No total {maior} pessoas atingiram a maior idade e {menor} pessoas sã
 print('\033[31m-'*10,'FIM','\033[31m-\033[m'*10)
 
 #resolução do curso
-#minha solução foi muito parecida, deixei a minha solução23
+#minha solução foi muito parecida, deixei a minha solução
 
 
 
