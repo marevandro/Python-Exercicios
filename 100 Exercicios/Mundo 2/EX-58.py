@@ -1,5 +1,0 @@
-smclsm
-
-xsmlsmx
-,xlsmxl
- xam
