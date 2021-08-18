@@ -32,3 +32,33 @@ while True:
 		print('VOCÊ PERDEU!!!')
 		break
 print(f'Você conquistou {venc} vitorias')
+
+#solução do curso
+
+from random import randint
+v = 0
+while True:
+	jogador = int(input('Diga um valor: '))
+	computador = randint (0,11)
+	total = jogador + computador
+	tipo = ' ' #PARA VALIDAR O 'TIPO' ELE JA PRECISA CONTER ALGUM VALOR
+	while tipo not in 'PI' #ENQUANTO O 'TIPO' NÃO RECEBER NENHUM VALOR ELE VOLTA PRA ESSE LAÇO
+		tipo = str(input('Par ou Impar? [P/I]')).strip().upper() [0] #ELIMINAR O ESPAÇO E JOGAR PARA MAIUSCULO VACILITANDO A VALIDAÇÃO
+	print(f'Você jogou {jogador} e o computador {computador}. Total de {total}', end=' ')
+	print('DEU PAR' if total % 2 == 0  else 'DEU IMPAR')
+	if tipo == 'P':
+		if total % 2 == 0:
+		print('Você VENCEU!')
+		v += 1
+	else:
+		print('Você PERDEU!')
+		break
+	elif tipo == 'I':
+		if total % 2 == 1:
+			print('Você VENCEU!')
+			v += 1
+		else:
+			print('Você PERDEU!')
+			break
+	print('Vamos jogar novamente...')
+print(f'GAME OVER! Você venceu {v} vezes...')
