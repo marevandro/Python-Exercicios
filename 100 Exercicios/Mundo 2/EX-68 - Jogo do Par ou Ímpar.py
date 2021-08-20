@@ -42,7 +42,7 @@ while True:
 	computador = randint (0,11)
 	total = jogador + computador
 	tipo = ' ' #PARA VALIDAR O 'TIPO' ELE JA PRECISA CONTER ALGUM VALOR
-	while tipo not in 'PI' #ENQUANTO O 'TIPO' NÃO RECEBER NENHUM VALOR ELE VOLTA PRA ESSE LAÇO
+	while tipo not in 'PI': #ENQUANTO O 'TIPO' NÃO RECEBER NENHUM VALOR ELE VOLTA PRA ESSE LAÇO
 		tipo = str(input('Par ou Impar? [P/I]')).strip().upper() [0] #ELIMINAR O ESPAÇO E JOGAR PARA MAIUSCULO VACILITANDO A VALIDAÇÃO
 	print(f'Você jogou {jogador} e o computador {computador}. Total de {total}', end=' ')
 	print('DEU PAR' if total % 2 == 0  else 'DEU IMPAR')
