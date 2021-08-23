@@ -26,8 +26,7 @@ while True:
 	result = str(input('Sim [S] e Não [N]: ')).strip().upper()
 	if result == 'N':
 		break
-print('''O cadastro conta com {} a cima da 18 anos;
-O total de {} homens cadastradors;\n
-O total de {} mulheres com menos de 20 anos'''.format(maior, cont_hom,menor_mulher))
+print('''O cadastro conta com {} acima da 18 anos;
+O total de {} homens cadastradors;\n O total de {} mulheres com menos de 20 anos.'''.format(maior, cont_hom,menor_mulher))
 
-
+#a resolução do curso ficou parecida com a minha
