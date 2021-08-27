@@ -1,20 +1,22 @@
 lanche = ('Hambúrguer','Suco','Pizza','Pudim','Batata Frita')
 
-#EXEMPLO 1
+#EXEMPLO 1 / FAZENDO A CHAMADA POR UM LAÇO SIMPLES
+for c in lanche:
+    print(c)
+
+#EXEMPLO 2
 for comida in lanche:
-	print(f'Eu vou comer {comida}')
+    print(f'Eu vou comer {comida}')
 
-#EXEMPLO 2 / SEMPRE PRECISAR MOSTRAR A POSIÇÃO
+#EXEMPLO 3 / SEMPRE PRECISAR MOSTRAR A POSIÇÃO
 for cont in range(0, len(lanche)):
-	print(f'Eu vou comer {lanche[cont]} na posição {cont}')
+    print(f'Eu vou comer {lanche[cont]} na posição {cont}')
 
-#EXEMPLO 3 
+#EXEMPLO 4 
 for pos, comida in enumerate(lanche):
-	print(f'Eu vou comer {comida} na posição {pos}')
+    print(f'Eu vou comer {comida} na posição {pos}')
 
-
-
-#EXEMPLO 4 / SORTED PARA CRIAR UMA ORDEM ALFABETICA
+#EXEMPLO 5 / SORTED PARA CRIAR UMA ORDEM ALFABETICA
 print(sorted(lanche))
 
 print('Comi pra caramba!')
