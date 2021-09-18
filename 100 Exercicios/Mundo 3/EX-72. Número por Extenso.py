@@ -10,7 +10,7 @@ num_exte = ('zero','um','dois','tres','quatro',
 			'dezessete','dezoito','dezenove','vinte')
 while True:
     num_user = int(input('Digite um número de 0 ate 20 = '))
-    if 0 >= num_user <= 20:
+    if 0 <= num_user <= 20:
         break
 print(f'O número digitado é {num_exte[num_user]}')
 
