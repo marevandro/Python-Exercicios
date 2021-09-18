@@ -8,15 +8,15 @@ for c in lanche:
 for comida in lanche:
     print(f'Eu vou comer {comida}')
 
-#EXEMPLO 3 / SEMPRE PRECISAR MOSTRAR A POSIÇÃO
+#EXEMPLO 3 / SEMPRE QUE PRECISAR MOSTRAR A POSIÇÃO
 for cont in range(0, len(lanche)):
     print(f'Eu vou comer {lanche[cont]} na posição {cont}')
 
-#EXEMPLO 4 
+#EXEMPLO 4 / SEMPRE QUE PRECISAR MOSTRAR A POSIÇÃO
 for pos, comida in enumerate(lanche):
     print(f'Eu vou comer {comida} na posição {pos}')
 
-#EXEMPLO 5 / SORTED PARA CRIAR UMA ORDEM ALFABETICA
+#EXEMPLO 5 / 'SORTED' QUER DIZER 'ORDENADO' ISSO FORMATA A TUPLA EM ORDEM ALFABETICA
 print(sorted(lanche))
 
 print('Comi pra caramba!')
