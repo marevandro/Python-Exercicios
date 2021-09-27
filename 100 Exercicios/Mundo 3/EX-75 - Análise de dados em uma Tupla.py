@@ -5,3 +5,8 @@ A) Quantas vezes apareceu o valor 9.
 B) Em que posição foi digitado o primeiro valor 3.
 
 C) Quais foram os números pares.'''
+
+
+
+for i in range(1,5):
+	valor = int(input('Digite um valor: ')
