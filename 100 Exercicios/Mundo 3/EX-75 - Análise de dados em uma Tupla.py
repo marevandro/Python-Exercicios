@@ -25,21 +25,23 @@ for n in núm:
 		
 #minha resolução
 
+
 num1 = tuple(input('Digite o 1° número: '))
 num2 = tuple(input('Digite o 2° número: '))
 num3 = tuple(input('Digite o 3° número: '))
 num4 = tuple(input('Digite o 4° número: '))
 
-todos = num1 + num2 + num3 + num4
+todos = num1, num2, num3, num4
 
 print(f'O valor 9 apareceu {todos.count(9)}x')
 if 3 in todos:
-	print(f'O valor 3 esta na posição {todos.index(3)+1}° posição')
+    print(f'O valor 3 esta na posição {todos.index(3)+1}° posição')
 else:
-	print('O valor 3 não foi digitado nenhuma vez')
-for par in todos:
-	if n % 2 == 0:
-		print(n ,) 
+    print('O valor 3 não foi digitado nenhuma vez')
+for n in todos:
+    if n % 2 == 0:
+        print(n ) 
+        
 		
 Validar pq minha resolução ainda da erro
 
