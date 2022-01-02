@@ -14,4 +14,15 @@ for i in comida:
         if v.lower() in vogais:
         #se a variavel criada tiver uma vogal, ele imprime
             print(f'{v.lower()}', end='')
-    print()
+        
+#resolução do curso
+palavras = ('aprender', 'programa','linguagem','python',
+            'curso','gratis','estudar','praticar',
+            'trabalhar','mercado','programador','futuro')
+for p in palavras:
+    print (f'Na palavra {p} temos ', end='')
+    for letra in p:
+        if letra.lower() in 'aeiou':
+            print(letra, end=' ')
+
+
