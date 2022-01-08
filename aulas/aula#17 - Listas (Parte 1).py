@@ -1,15 +1,17 @@
+'''------------- Anotações -------------'''
 #listas: mutaveis, podemos alterar
 #representadas por colchetes []
 
+lanche = ['Hamburguer','Suco','Pizza','Sorvete']
 
 
 #comomando que adicionada um valor ao final da lista
-.append('biscoito')
+lista.append('biscoito')
 
 
 #posso adicionar um elemento em outra posição
 #o que estava no 0, fica na posição 1 e assim sucessivamente
-.insert(0,'cachorro-quente')
+lista.insert(0,'cachorro-quente')
 
 
 #função 'list'
@@ -39,5 +41,23 @@ del lanche[3]
 lanche.pop()
 lanche.pop(3)
 
+#metodo que você não indica o indice e sim o valor que você deseja eliminar
+#no caso se você quiser eliminar pelo contéudo.
+#OBS: esse metodo retira apenas o 1° valor encontrado ou seja, se na lista existir mais de um, voce deve usar os laços de rep.
+lanche.remove('Pizza') 
 
 
+'''Caso eu queira remover um elemento que não existe ? 
+Nesse caso eu verifico primeiro e depois retiro, usando um IF
+'''
+if 'Pizza' in lanche:
+    lanche.remove('Pizza')
+    
+    
+#metodo que alinha valores
+
+valores = [8,2,5,4,9,3,0] #criando um variavel dentro do colchete, então é uma lista
+#esse metodo vai organizar os valores
+valores.sort()
+#se for preciso os valores na ordem inversa, usamos um paramentro
+valores.sort(reverse=True)
