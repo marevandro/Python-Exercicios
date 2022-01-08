@@ -23,8 +23,10 @@ mai = 0
 men = 0
 for c in range(0, 5):
     listanum.append(int(input(f'Digite um valor para a Posição {c}: ')))
+    #essa condição é somente para a variável guardar um valor e passar para a próxima condição
     if c == 0:
         mai = men = listanum[c]
+    #nessa condição determinamos qual o maior/menor valor vai ficar ocupar as variáveis 
     else:
         if listanum[c] > mai:
             mai = listanum[c]
