@@ -61,3 +61,37 @@ valores = [8,2,5,4,9,3,0] #criando um variavel dentro do colchete, então é uma
 valores.sort()
 #se for preciso os valores na ordem inversa, usamos um paramentro
 valores.sort(reverse=True)
+
+
+
+'''------------- Prática -------------'''
+#Adicionando valores a uma lista. 
+
+valores = list()
+for cont in range(0, 5):
+    valores.append(int(input('Digite um valor: ')))
+    
+for c, v in enumerate(valores):
+    print(f'Na posição {c} encontrei o baslor {v}!')
+print('Cheguei ao final da lista.')
+
+
+#Ligação de uma lista com a outra
+
+a = [2, 3, 4, 7]
+b = a
+
+b[2] = 8
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
+
+
+#Criando uma copia
+
+a = [2, 3, 4, 7]
+#Relambrando a aula de fatiamento de str, aqui criamos uma copia 
+b = a[:]
+
+b[2] = 8
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
