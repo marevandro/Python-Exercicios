@@ -2,22 +2,24 @@
 Seu aplicativo deverá analisar se a expressão passada está com os 
 parênteses abertos e fechados na ordem correta.'''
 
-expresse = str(input('Digite uma expressão: ')).strip()
-list(expresse)
-a = expresse.count(')')
-b = expresse.count('(')
-c = expresse.index(')')
-e = expresse.index('(')
-if c > e:
-  print('Sua expressão esta errada')
-elif b > a:
-  print('Sua expressão tambem esta errada')
-elif b == a: 
-  print('Sua expressão esta correta')
+#resolução do curso
 
+expr = str(input('Digite uma expressão matemática: '))
+pilha = []
 
-#exemplo para consertar 6+)85(
-#exemplo2 para consertar (a*b)-)c(=12
+for simb in expr:
+    if simb == '(':
+     pilha.append('(')
+    elif simb == ')':
+      if len(pilha) > 0:
+        pilha.pop()#retira o ultimo item
+      else:
+        pilha.append(')')
+        break
+if len(pilha) == 0:
+    print('Sua expressão está válida!')
+else:
+  print('Sua espressão está errada!')
 
-#problema 1 resolvido
-#problema 2 pendente
+#conceito de pilha
+#https://www.cos.ufrj.br/~rfarias/cos121/pilhas.html
