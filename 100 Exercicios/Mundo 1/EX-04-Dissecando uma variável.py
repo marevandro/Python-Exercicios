@@ -2,10 +2,11 @@
 tela o seu tipo primitivo e todas as informações possíveis
 sobre ele.'''
 
+#minha resolução com observações
 digite = input('Digite algo: ')
 print("O tipo primitivo desse valor é", type(digite))
 
-print("So tem espaço?", digite.isspace())
+print("Aqui tem espaço?", digite.isspace())
 print("Verifica se contem somente espaços")
 print("="*20)
 
